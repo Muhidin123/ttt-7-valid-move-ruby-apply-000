@@ -15,3 +15,6 @@ def position_taken?(board, ix)
     return true
   end
 end
+
+def move(number)
+  if num

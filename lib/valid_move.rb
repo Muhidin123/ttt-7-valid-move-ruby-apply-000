@@ -3,7 +3,7 @@
   
   
 def valid_move?(board, ix)
-  if position_taken?(board, ix) == false && move_valid?(number) == true
+  if position_taken?(board, ix) == false && move_val?(ix) == true
     return true
   else
     false
@@ -20,7 +20,7 @@ def position_taken?(board, ix)
   end
 end
 
-def move_valid?(number)
+def move_val?(number)
   if num.between?(0, 8) == true
     return true
   else

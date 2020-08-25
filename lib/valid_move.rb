@@ -20,7 +20,7 @@ def position_taken?(board, ix)
   end
 end
 
-def move_val?(number)
+def move_val?(num)
   if num.between?(0, 8) == true
     return true
   else

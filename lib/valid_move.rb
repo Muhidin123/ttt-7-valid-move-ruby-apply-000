@@ -17,4 +17,4 @@ def position_taken?(board, ix)
 end
 
 def move(number)
-  if num
+  if num.betwene
